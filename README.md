@@ -1,3 +1,5 @@
-<h2 align="center">Color Generator</h2>
+<h2 align="center">Coloors</h2>
 
-[![banner](./src/img/banner.png)](https://digitalocean.com)
+<p></p>
+
+[![banner](./src/img/banner.png)]()
