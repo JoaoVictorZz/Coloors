@@ -12,6 +12,7 @@ header > p {
 	padding: 10px;
 	font-size: 1.5rem;
 	user-select: none;
+	text-transform: capitalize;
 }
 
 header > nav {
@@ -27,6 +28,7 @@ header > nav > a{
 	padding: 8px;
 	margin-left: 10px;
 	transition: all 0.4s;
+	text-transform: capitalize;
 }
 
 header > nav > a:hover {

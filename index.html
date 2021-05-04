@@ -16,20 +16,29 @@
 	<link rel="stylesheet" href="./src/css/reset.css">
 	<link rel="stylesheet" href="./src/css/HEX.css">
 	<link rel="stylesheet" href="./src/css/headerStyle.css">
+	<link rel="stylesheet" href="./src/css/colorsSaved.css">
 </head>
 
 <body>
 	<header>
-		<p>Coloors</p>
+		<p>coloors</p>
 		<nav>
-			<a href="">Generator HEX</a>
-			<a href="">Generator RGB</a>
+			<a href="">generator HEX</a>
+			<a href="">generator RGB</a>
 			<a target="_blank" href="https://github.com/JoaoVictorZz/Coloors"><img src="./src/img/github.svg"> </a>
 		</nav>
 	</header>
+
+	<div class="colorsSaved">
+		<p>your colors saved:</p>
+	</div>
+
 	<div class="container">
 		<div id="hexColor">#ff5555</div>
-		<button id="changerColor">Generate Colors</button>
+		<div class="btns">
+			<button id="changerColor"><img src="./src/img/newColor.svg"> generate colors</button>
+			<button class="addSaved"><img src="./src/img/saveColor.svg">save color</button>
+		</div>
 	</div>
 
 	<!-- JS -->

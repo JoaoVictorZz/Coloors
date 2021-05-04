@@ -1,0 +1,17 @@
+.colorsSaved {
+	width: 95%;
+	background: #282828;
+	margin: 10px auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	border-radius: 10px;
+}
+
+.colorsSaved > p {
+	padding: 10px;
+	margin: 8px;
+	color: #ddd;
+	background: #383838;
+	text-transform: capitalize;
+}
